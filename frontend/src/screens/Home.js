@@ -31,6 +31,8 @@ const Home = () => {
                     window.location.href = '/admin';
                 }
             });
+        } else {
+            fetchPolls();
         }
     }, []);
     
