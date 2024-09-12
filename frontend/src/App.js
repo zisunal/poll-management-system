@@ -10,6 +10,7 @@ import AdminCreate from './screens/Admin/AdminCreate'
 import AdminProfile from './screens/Admin/AdminProfile'
 
 function App() {
+	document.title = 'Poll Management'
 	return (
 		<div className="App">
 			<BrowserRouter>
