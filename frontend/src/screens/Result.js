@@ -30,6 +30,8 @@ const Result = () => {
                     window.location.href = '/admin/finished';
                 }
             });
+        } else {
+            fetchResults();
         }
     }, [])
     return (
